@@ -75,11 +75,15 @@ img {
 
 /* MOBILE */
 
-@media all and (max-width:576px){
-  .row{
+@media all and (max-width:575px) {
+  .row{  
     width:100%;
-    max-width:576px;
-    margin: 0 auto;
+    max-width:575px;
+  }
+
+  #lezioni .left, #lezioni .right, #steps .left, #steps .central, #steps .right{
+    min-width: 100%;
+    
   }
 
 #lezioni, #why{
