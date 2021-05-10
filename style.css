@@ -83,7 +83,7 @@ img {
 
   #lezioni .left, #lezioni .right, #steps .left, #steps .central, #steps .right{
     min-width: 100%;
-    
+    margin-top: 30px;
   }
 
 #lezioni, #why{
